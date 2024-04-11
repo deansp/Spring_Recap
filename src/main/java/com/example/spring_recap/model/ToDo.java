@@ -7,7 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class todo {
+public class ToDo {
+    private String id;
     private String description;
-    private String status;
+    private Status status;
 }
